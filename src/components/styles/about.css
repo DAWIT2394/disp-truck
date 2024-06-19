@@ -36,6 +36,7 @@
   .about-us-content ul {
     list-style: none;
     padding: 0;
+    
   }
   
   .about-us-content ul li {
@@ -43,16 +44,20 @@
     margin-bottom: 10px;
     display: flex;
     align-items: center;
+
   }
   
   .about-us-content ul li i {
-    color: green;
+    color: rgb(6, 54, 6);
     margin-right: 10px;
   }
   
   .about-us-image img {
     max-width: 100%;
     height: auto;
+    border-radius: 1rem;
+    height: auto;
+
   }
   
   @media (max-width: 768px) {
