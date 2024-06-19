@@ -27,9 +27,9 @@
     width: 150px;
     
   }
-  .services-content:hover{
+  .service:hover{
     box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
-
+    cursor: pointer;
   }
   .service .icon {
     font-size: 2em;
