@@ -34,7 +34,8 @@
   .service .icon {
     font-size: 2em;
     margin-bottom: 10px;
-    color: yellow;
+    color: rgb(4, 230, 34);
+
   }
   
   .service h3 {

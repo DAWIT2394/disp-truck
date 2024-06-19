@@ -73,6 +73,8 @@
   
     .about-us-content ul li {
       justify-content: center;
+      flex-direction: column;
+
     }
   }
   

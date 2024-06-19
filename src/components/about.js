@@ -1,7 +1,6 @@
 import React from 'react';
 import '../components/styles/about.css';  // Make sure to create and style this CSS file
 import truckImage from '../images/slider8.jpg';  // Ensure the image is in the right path
-
 const AboutUs = () => {
   return (
     <div className="about-us-container">

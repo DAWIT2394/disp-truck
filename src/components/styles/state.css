@@ -1,0 +1,72 @@
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background: #beb0b0;
+  color: #000000;
+  flex-wrap: wrap; /* Ensure the items wrap on smaller screens */
+  background-size: cover; /* Ensure the image covers the container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  border-radius: 10px; /* Optional: Add border-radius for smoother edges */
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1 1 20%; /* Make the items flexible */
+  margin: 10px; /* Add margin for spacing */
+}
+
+.stat-number {
+  font-size: 2em;
+  font-weight: bold;
+  color: #05660a;
+}
+
+.stat-label {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #000000;
+}
+
+/* Hover effect to underline text and number */
+.stat-item:hover .stat-number {
+  text-decoration: underline;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .stat-number {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  .stat-label {
+    font-size: 0.9em; /* Adjust label size for smaller screens */
+  }
+
+  .stat-item {
+    flex: 1 1 45%; /* Adjust flex basis for smaller screens */
+  }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+  .stats-container {
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center; /* Center align items */
+  }
+
+  .stat-number {
+    font-size: 1.2em; /* Further adjust font size for mobile screens */
+  }
+
+  .stat-label {
+    font-size: 0.8em; /* Further adjust label size for mobile screens */
+  }
+
+  .stat-item {
+    flex: 1 1 100%; /* Full width for each item on mobile */
+    margin: 10px 0; /* Adjust margin for vertical stacking */
+  }
+}
